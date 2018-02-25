@@ -6,25 +6,35 @@ import static org.junit.jupiter.api.Assertions.*;
 //JUnit 5
 
 class StringHelperTest {
+
+    StringHelper helper = new StringHelper();
+
     @Test
     public void test(){
         assertEquals("ABC", "ABC");
         //expected, actual
     }
 
-
     @Test
-    public void testTruncateAInFirst2Positions_Cond() {
-        StringHelper helper = new StringHelper();
+    public void testTruncateAInFirst2Positions_AinFirst2Positions() {
         //AACD=>CD
         assertEquals("CD", helper.truncateAInFirst2Positions("AACD"));
-        assertEquals("CD", helper.truncateAInFirst2Positions("ACD"));
-        //not good to have two test conditions in the same test
         //expected, actual
     }
 
     @Test
-    public void testAreFirstAndLastTwoCharactersTheSame_Cond() {
-
+    public void testTruncateAInFirst2Positions_AinFirstPosition() {
+        assertEquals("CD", helper.truncateAInFirst2Positions("ACD"));
     }
+
+    @Test
+    public void testTruncateAInFirst2Positions_NoAinAnyPosition() {
+        assertEquals("CDEF", helper.truncateAInFirst2Positions("CDEF"));
+    }
+
+    @Test
+    public void testTruncateAInFirst2Positions_AinLast2Positions() {
+        assertEquals("CDAA", helper.truncateAInFirst2Positions("CDAA"));
+    }
+
 }
