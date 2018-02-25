@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98021dc8-bd28-4b8a-a17b-665b21b72f85" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/henryq95/junit/helper/StringHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/henryq95/junit/helper/StringHelper.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/henryq95/junit/helper/StringHelperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/henryq95/junit/helper/StringHelperTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="StringHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/henryq95/junit/helper/StringHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="160">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -38,7 +39,7 @@
       <file leaf-file-name="StringHelperTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/henryq95/junit/helper/StringHelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="-576">
               <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -361,15 +362,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringHelperTest - 2018.02.25 at 13h 42m 47s.xml">
-      <configuration name="StringHelperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringHelperTest - 2018.02.25 at 13h 42m 58s.xml">
-      <configuration name="StringHelperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringHelperTest - 2018.02.25 at 13h 46m 11s.xml">
-      <configuration name="StringHelperTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringHelperTest - 2018.02.25 at 13h 47m 41s.xml">
       <configuration name="StringHelperTest" configurationId="JUnit" />
     </history-entry>
@@ -386,6 +378,15 @@
       <configuration name="StringHelperTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StringHelperTest - 2018.02.25 at 14h 02m 03s.xml">
+      <configuration name="StringHelperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringHelperTest - 2018.02.25 at 14h 12m 26s.xml">
+      <configuration name="StringHelperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringHelperTest - 2018.02.25 at 14h 14m 10s.xml">
+      <configuration name="StringHelperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringHelperTest - 2018.02.25 at 14h 19m 13s.xml">
       <configuration name="StringHelperTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StringHelperTest_testAreFirstAndLastTwoCharactersTheSame_AinFirstPosition - 2018.02.25 at 13h 58m 02s.xml">
@@ -450,15 +451,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/henryq95/junit/helper/StringHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="160">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/henryq95/junit/helper/StringHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="-576">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
