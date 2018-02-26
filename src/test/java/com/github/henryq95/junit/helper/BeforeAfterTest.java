@@ -1,20 +1,29 @@
 package com.github.henryq95.junit.helper;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class BeforeAfterTest {
+    @BeforeAll
+    public static void beforeAll() {
+        System.out.println("Before all");
+    }
+
+
     @BeforeEach
     public void setUp() {
         System.out.println("Before Test");
     }
 
     @AfterEach
-    void tearDown() {
+    public void tearDown() {
         System.out.println("After Test");
+    }
+
+    @AfterAll
+    public static void afterAll() {
+        System.out.println("After all");
     }
 
     @Test
