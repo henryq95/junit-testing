@@ -9,8 +9,8 @@
         <module name="junit-testing" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="junit-testing" target="1.5" />
+    <bytecodeTargetLevel target="9">
+      <module name="junit-testing" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
